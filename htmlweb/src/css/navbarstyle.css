@@ -1,0 +1,67 @@
+
+.header img{
+    height: 100px;
+    width: 100px;
+   margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.header h1{
+    text-align: center;
+}
+
+.container-fluid navbar-nav{
+    text-align: right;
+
+}
+.navbar a {
+
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+/* Links - change color on hover */
+.navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+.navbar ul {
+text-align: right;  
+}
+
+.navbar .nav-item.dropdown:hover .dropdown-menu  {
+    display: block;
+    width: 100%;
+}
+.card{
+  width: 40%;
+  height: 50%;
+}
+
+
+.container-fluid {
+    position: relative;
+    overflow: hidden; /* Hide any overflow content */
+  }
+
+  .img-container-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+
+  .img-container-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.container-fluid img{
+    height: 500px;
+    width: 500px;
+}
